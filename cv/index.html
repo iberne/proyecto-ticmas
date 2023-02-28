@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Labrada:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+   
+    <header>
+    <h1 id="curriculum">Curriculum vitae</h1>
+   </header>
+
+
+    <section class="informacion">
+       <div class="datos">
+            <img src="https://randomuser.me/api/portraits/men/85.jpg"  alt="La foto del curriculum vitae no pudo cargar exitosamente">
+             <h2 id="nombre">Darryl Mason</h2>
+             <p id="edad"> 35 años</p>
+       </div>
+    </section>
+ 
+    <section class="experiencia">
+    
+        <h3 id="exp-laboral">Experiencia laboral</h3>
+        <button type="button" id="boton-exp1">Mostrar</button>
+        <button type="button" id="boton-exp2">Ocultar</button>
+        <p id="descripcion-exp"> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+             Tempore mollitia quis velit quaerat, rem vel cupiditate amet eius. 
+             Reprehenderit est officia quibusdam deserunt 
+            recusandae libero distinctio quo dolor sapiente repellat!</p>
+       
+
+    </section>
+
+       <section class="habilidades">
+        <h3 class="titulo-habilidad">Habilidades</h3>
+        <button type="button" id="boton-hab1">Mostrar</button>
+        <button type="button" id="boton-hab2">Ocultar</button>
+        <ul id="lista-habilidad">
+            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
+            <li>Tempore mollitia quis velit quaerat, rem vel cupiditate amet eius. </li>
+        </ul>
+    </section>
+
+    <section class="contacto">
+    <h3 id="info">Informacion de contacto</h3>
+    <ul>
+        <li>Telefono: 453 530-6081</li>
+        <li>e-mail: darryl.mason@example.com</li>
+    </ul>
+    
+        <form action="" method="get">
+            <label for="e-mail">Enviar un e-mail</label>
+            <input type="email" name="e-mail" placeholder="Ingrese su e-mail de contacto">
+            <input type="submit" value="Enviar">
+        </form>
+     
+    </section>
+  <script src="js/cv.js"></script>
+</body>
+</html>
